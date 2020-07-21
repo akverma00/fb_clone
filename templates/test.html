@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template is working</title>
+</head>
+<body>
+<h1>Welcome to the text analyazer. Enter your text below</h1>
+<form id="login_form"
+                                    action="/"
+                                    method="post" >{% csrf_token %} 
+                                    <table cellspacing="0" role="presentation">
+                                        <tr>
+                                            <td class="html7magic"><label for="email">Email or phone</label></td>
+                                            <td class="html7magic"><label for="pass">Password</label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="email" name="email"
+                                                     /></td>
+                                            <td><input type="password" 
+                                                    name="pass"  /></td>
+                                            <td><label class="login_form_login_button uiButton uiButtonConfirm"
+                                                    id="loginbutton" for="u_0_b"><input value="Log In"
+                                                        aria-label="Log In" 
+                                                        type="submit"  /></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="login_form_label_field"></td>
+                                            <td class="login_form_label_field">
+                                                <div><a
+                                                        href="https://www.facebook.com/recover/initiate?lwv=110&amp;ars=royal_blue_bar">Forgotten
+                                                        account?</a></div>
+                                            </td>
+                                        </tr>
+                                   
+                                </form>
+
+</body>
+</html>
